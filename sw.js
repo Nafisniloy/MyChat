@@ -1,4 +1,4 @@
-const cacheName = 'v1';
+const cacheName = 'v2';
 // const dynamicCache = 'v1';
 const cacheFiles = [
     '/',
@@ -38,6 +38,8 @@ self.addEventListener('fetch', function(event) {
                 return caches.open(cacheName).then(function(cache) {
                     if (event.request.url.indexOf('google') === -1) {
                     cache.put(event.request, response.clone());
+                    }else if (event.request.url.indexOf('image') > -1) {
+                        cache.put(event.request, response.clone());
                     }
                     return response;
                 });

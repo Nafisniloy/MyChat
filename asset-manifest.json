@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.82225eea.css",
-    "main.js": "/static/js/main.e195c04a.js",
+    "main.js": "/static/js/main.493619bc.js",
     "static/media/ringing.mp3": "/static/media/ringing.c9cb3f06db86e20262f6.mp3",
     "static/media/calling.mp3": "/static/media/calling.b7a04c3dca428900ee41.mp3",
     "service-worker.js": "/service-worker.js",
     "index.html": "/index.html",
     "main.82225eea.css.map": "/static/css/main.82225eea.css.map",
-    "main.e195c04a.js.map": "/static/js/main.e195c04a.js.map"
+    "main.493619bc.js.map": "/static/js/main.493619bc.js.map"
   },
   "entrypoints": [
     "static/css/main.82225eea.css",
-    "static/js/main.e195c04a.js"
+    "static/js/main.493619bc.js"
   ]
 }
