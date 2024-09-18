@@ -1,4 +1,4 @@
-const cacheName = 'v2';
+const cacheName = 'v4';
 // const dynamicCache = 'v1';
 const cacheFiles = [
     '/',
